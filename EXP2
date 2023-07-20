@@ -1,0 +1,69 @@
+22070123103
+Sarvesh Dhote
+EXP 2
+
+//Code 1//
+#include<iostream>
+using namespace std;
+int main()
+{
+     int myintvar = 45;
+     float myfloatvar = 45.8;
+     double mydoublevar = 14.149;
+     char mycharvar = '#';
+     string mystringvar = "hello";
+     bool myboolvar = true;
+
+     cout<<"Value of my intvar is "<< myintvar<<endl;
+     cout<<"Value of float is "<<myfloatvar<<endl;
+     cout<<"Valur of Double is "<<mydoublevar<<endl;
+     cout<<"Value of character is "<<mycharvar<<endl;
+     cout<<"Value of boolean is "<<myboolvar<<endl;
+
+}
+
+//OUTPUT 2//
+Value of my intvar is 45
+Value of float is 45.8
+Valur of Double is 14.149
+Value of character is #
+Value of boolean is 1
+PS D:\22070123103> 
+
+//CODE 2//
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    bool imageColor = true;
+    if (imageColor)
+        cout<<"Yes,the image is colorful"<<endl;
+    else
+        cout<<"Image is black and white"<<endl;
+}
+
+//OUTPUT 2//
+Yes,the image is colorful
+PS D:\22070123103> 
+
+//CODE 3//
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int number1=3;
+    int number2=6;
+    bool comparison;
+    comparison=number1>number2;
+    if(comparison)
+    cout<<"number 1 is greater than number 2";
+    else(comparison);
+    cout<<"number 2 is greater than number 1";
+    return 0;
+}
+
+//OUTPUT 2//
+number 2 is greater than number 1
+PS D:\22070123103> 
